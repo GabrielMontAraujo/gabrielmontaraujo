@@ -1,35 +1,71 @@
-# Olá, sou Gabriel Monteiro de Araújo! 🚀
+# Gabriel Monteiro - DevOps & Infrastructure Portfolio
 
-Sou um profissional de **Cloud Consultant**, **DevOps**, e **SRE** com experiência em automação, infraestrutura como código, e monitoramento de sistemas críticos. Este repositório é o meu portfólio, onde compartilho projetos que demonstram minhas habilidades e experiências.
+👋 **Analista de Infraestrutura | DevOps Jr | Automação**
+
+Bem-vindo ao meu portfólio! Aqui você encontra projetos práticos que demonstram minhas habilidades em DevOps, automação e administração de infraestrutura.
+
+## 🛠️ Tech Stack
+
+**DevOps & Cloud:**
+- 🐧 Linux (Ubuntu/CentOS), Windows Server
+- 🐳 Docker, Docker Compose, conceitos Kubernetes  
+- ☁️ AWS (EC2, S3, VPC), Terraform
+- 🔄 CI/CD (Jenkins, GitLab CI, GitHub Actions)
+- 📊 Monitoramento (Grafana, Prometheus, Zabbix)
+
+**Desenvolvimento:**
+- 🐍 Python (automação, APIs, scripts)
+- 💻 Bash scripting
+- 📝 YAML, JSON, Ansible
+
+**Suporte & Infraestrutura:**
+- 🎫 ServiceNow, Jira Service Management
+- 🖥️ Active Directory, Group Policy
+- 🌐 Redes (TCP/IP, DNS, DHCP, VPN)
+- 💾 Backup/Recovery (Veeam, políticas de retenção)
+
+## 📁 Projetos em Destaque
+
+### [🔄 Automação de Backup MySQL → S3](./backup-automation/)
+Script Python que automatiza backup de bancos MySQL para AWS S3 com logs, notificações e rotação automática.
+- **Tech:** Python, AWS S3, MySQL, logging, cronjob
+- **Resultado:** Backup automático diário com retenção de 30 dias
+
+### [📊 Dashboard de Monitoramento](./grafana-monitoring/)
+Dashboard Grafana para monitorar performance de APIs e infraestrutura em tempo real.
+- **Tech:** Grafana, Prometheus, Python, Docker
+- **Resultado:** Visualização de métricas críticas e alertas automáticos
+
+### [🚀 Pipeline CI/CD Completo](./cicd-pipeline/)
+Pipeline GitLab CI que testa, builda e deploya aplicação Node.js em containers Docker.
+- **Tech:** GitLab CI, Docker, Node.js, Nginx, AWS
+- **Resultado:** Deploy automatizado com zero downtime
+
+### [🏠 Home Lab Infrastructure](./home-lab/)
+Documentação completa do meu laboratório pessoal com Proxmox, containers e monitoramento.
+- **Tech:** Proxmox, Docker, Zabbix, Ansible, Terraform
+- **Resultado:** Ambiente completo para testes e aprendizado
+
+### [🔧 Scripts de Administração](./admin-scripts/)
+Coleção de scripts Python/Bash para tarefas administrativas e troubleshooting.
+- **Tech:** Python, Bash, PowerShell, Linux, Windows
+- **Resultado:** Automação de tarefas repetitivas e diagnósticos
+
+## 📜 Certificações
+
+- 🎓 **AWS Cloud Practitioner** (em andamento - Dez/2024)
+- 🎓 **Google IT Support Professional Certificate** (2023)
+- 🎓 **Linux Essentials - LPI** (2023)
+- 🎓 **Cisco Introduction to Cybersecurity** (2022)
+
+## 📞 Contato
+
+- 📧 **Email:** gabriel.monteiro.ara@gmail.com
+- 💼 **LinkedIn:** [gabriel-mont-araujoo](https://www.linkedin.com/in/gabriel-mont-araujoo/)
+- 🌐 **Disponibilidade:** Remoto | Horário Comercial
 
 ---
 
-## 🌟 Habilidades Principais
-- **Infraestrutura como Código (IaC)**: Terraform, Ansible.
-- **Orquestração e Contêineres**: Docker, Kubernetes.
-- **CI/CD**: GitLab CI, GitHub Actions, Jenkins.
-- **Monitoramento e Observabilidade**: Prometheus, Grafana, ELK Stack.
-- **Cloud Computing**: AWS, Azure, GCP.
-- **Segurança**: Práticas de hardening e conformidade com padrões como ISO 27001 e NIST.
+⭐ **Interessado em DevOps Jr / Analista de Infraestrutura / Suporte Técnico**
 
----
-
-## 📂 Projetos Destaque
-
-### 🛠️ Infraestrutura como Código
-- **[AWS VPC Terraform Module](#)**  
-  Criou uma infraestrutura AWS com VPC, subnets, e grupos de segurança usando Terraform, garantindo alta disponibilidade e boas práticas de segurança.
-
-### ⚙️ CI/CD
-- **[Pipeline de Deploy Automático](#)**  
-  Pipeline configurado com GitHub Actions para deploy contínuo em ambientes staging e produção com validação automatizada.
-
-### 🔍 Monitoramento
-- **[Stack de Monitoramento com Prometheus e Grafana](#)**  
-  Implementação de um sistema de monitoramento completo para aplicativos distribuídos, incluindo métricas personalizadas e alertas.
-
----
-
-## 📫 Entre em Contato
-- **LinkedIn**: [linkedin.com/in/gabriel-mont-araujoo](https://www.linkedin.com/in/gabriel-mont-araujoo/)
-- **E-mail**: [gabriel.monteiro.ara@gmail.com](mailto:gabriel.monteiro.ara@gmail.com)
+🚀 **Sempre aberto a novos desafios e oportunidades de aprendizado!**
